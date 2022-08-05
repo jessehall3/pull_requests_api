@@ -1,4 +1,4 @@
-# Pull Request API
+# Pull Requests API
 
 ## Purpose
 
