@@ -2,11 +2,11 @@
 
 ## Purpose
 
-This is a toy API demostrating how to build functionality aroung [GitHub's REST API](https://developer.github.com/v3) (v3). It retrieves data on pull requests for a specified repository.
+This is a toy API demonstrating how to build functionality around [GitHub's REST API](https://developer.github.com/v3) (v3). It retrieves data on pull requests for a specified repository.
 
 ## Before You Start
 
-A GitHub authorization token is required to use this API. Additionally, the token must have read privleges for the specified repository. All valid tokens will be able to read public repositories.
+A GitHub authorization token is required to use this API. Additionally, the token must have read privileges for the specified repository. All valid tokens will be able to read public repositories.
 
 ### Setup
 
@@ -16,7 +16,7 @@ To run this code, please have [Node.js](http://nodejs.org), already installed. B
 
 - Use `npm start` to run start the live API server on port 3000.
 
-- Use `npm run dev` to run the API server in development mode. The server will watch the `src/` directory and restart wtih any changes.
+- Use `npm run dev` to run the API server in development mode. The server will watch the `src/` directory and restart with any changes.
 
 - Use `npm test` to run all the tests. All tests can be found within the file `src/app.test.js`.
 
@@ -28,7 +28,7 @@ To run this code, please have [Node.js](http://nodejs.org), already installed. B
 
 ##### Request
 
-`POST /pulls/:owner/:repo`
+`GET /pulls/:owner/:repo`
 
 ```sh
 curl \
@@ -38,8 +38,8 @@ curl \
 
 ##### Response
 
-  Status: 200 OK
-  Content-Type: application/json
+`Status: 200 OK` \
+`Content-Type: application/json`
 
 ```json
 [
