@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This is a toy API demostrating how to build functionality aroung [GitHub's Rest API](https://developer.github.com/v3) (v3). It retrieves data on pull requests for a specified repository.
+This is a toy API demostrating how to build functionality aroung [GitHub's REST API](https://developer.github.com/v3) (v3). It retrieves data on pull requests for a specified repository.
 
 ## Before You Start
 
@@ -48,14 +48,14 @@ curl \
     "number": 1,
     "title": "My First PR",
     "author": "First-Person",
-    "commit_count": 2,
+    "commit_count": 2
   },
   {
     "id": 5678,
     "number": 2,
     "title": "My Second PR",
-    "author": "Second-Person";,
-    "commit_count": 2,
-  },
+    "author": "Second-Person",
+    "commit_count": 2
+  }
 ]
 ```
