@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {},
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "ecmaFeatures": {}
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "settings": {}
+}
